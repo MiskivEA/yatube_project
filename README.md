@@ -21,4 +21,5 @@ python3 manage.py runserver
 ```
 
 ## Автор 
+~~YandexPracticum~~
 MiskivEA 
