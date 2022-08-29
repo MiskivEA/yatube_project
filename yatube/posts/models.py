@@ -19,9 +19,10 @@ class Post(models.Model):
         related_name='posts'
     )
 
+
 class Group(models.Model):
-    title = models.CharField(max_length=50)
-    slug = models.CharField(max_length=50)
+    title = models.CharField(max_length=200)
+    slug = models.CharField(max_length=200)
     description = models.TextField
 
     def __str__(self):
